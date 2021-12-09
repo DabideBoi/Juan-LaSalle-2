@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "General Kenobi",
+      "patterns": [
+        "Hello There"
+      ],
+      "responses": [
+        "General Kenobi"
+      ]
+    },
+
+
+    {
+      "tag": "PreReg",
+      "patterns": [
+        "Why is there a need to pre-register"
+      ],
+      "responses": [
+        "Pre-registration gives the students an easier and faster enrollment process. Classes are reserved for them."
+      ]
+    },
+    {
+      "tag": "reserve",
+      "patterns": [
+        "Why do I need to reserve slots",
+        "Is reservation important?",
+        "Should I reserve slots?"
+      ],
+      "responses": [
+        "During enrollment, each class reaches the maximum number of students. The schedule you desire may be full by the time you enroll if you do not pre-register."
+      ]
+    },
+    {
+      "tag": "regular student",
+      "patterns": [
+        "What is a regular student?",
+        "Define a regular student?",
+        "Who is a regular student?",
+        "Regular student requirements"
+      ],
+      "responses": [
+        "A regular student is one who is enrolled in the total number of units prescribed in the curriculum."
+      ]
+    },
+    {
+      "tag": "shift",
+      "patterns": [
+        "When can I shift to another course"
+      ],
+      "responses": [
+        "Freshmen are allowed to shift by the end of the First Semester. Upperclassmen may shift at the end of the current semester when grades become available."
+      ]
+    },
+    {
+      "tag": "where grades?",
+      "patterns": [
+        "If I have a question about my curriculum or grades, where do I go?"
+      ],
+      "responses": [
+        "You may address your questions to your assigned evaluator."
+      ]
+    },
+
+
+
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
