@@ -8,7 +8,8 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Good Morning"
       ],
       "responses": [
         "Hey :-)",
@@ -73,13 +74,13 @@
       "tag": "where grades?",
       "patterns": [
         "If I have a question about my curriculum or grades, where do I go?"
+
       ],
       "responses": [
         "You may address your questions to your assigned evaluator."
       ]
     },
-
-
+    
 
 
     {

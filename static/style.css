@@ -5,15 +5,15 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lucida Sans Unicode', sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background: #F1F1F1;
+    background: white;
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #0fc24b 0.52%, #2abb1d 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #2abb1d -2.14%, #0fc24b 99.69%);
+    --primaryGradient: linear-gradient(93.12deg, #12470D 0.52%, #12470D 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #12470D -2.14%, #12470D 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary: #1b9825;
@@ -197,4 +197,12 @@ body {
     border-bottom-left-radius: 50px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    
 }
+.filter-color{
+    filter: invert(48%) sepia(91%) saturate(529%) hue-rotate(69deg) brightness(100%) contrast(92%);
+}
+/*bg imag
+.bg_image{
+    
+}*/
