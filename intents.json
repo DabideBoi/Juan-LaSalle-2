@@ -8,8 +8,7 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day",
-        "Good Morning"
+        "Good day"
       ],
       "responses": [
         "Hey :-)",
@@ -74,13 +73,13 @@
       "tag": "where grades?",
       "patterns": [
         "If I have a question about my curriculum or grades, where do I go?"
-
       ],
       "responses": [
         "You may address your questions to your assigned evaluator."
       ]
     },
-    
+
+
 
 
     {
@@ -145,6 +144,425 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+
+    //DLSUD FAQ
+    //Students
+    {
+      "tag": "pre-registration",
+      "patterns": [
+        "Why is there a need to pre-register?",
+        "Pre-register",
+        "Pre-registration"
+      ],
+      "responses": [
+        "Pre-registration gives the students an easier and faster enrollment process. Classes are reserved for them.",
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Why do I need to reserve slots?",
+        "Reserve",
+        "Reservation"
+      ],
+      "responses": [
+        "During enrollment, each class reaches the maximum number of students. The schedule you desire may be full by the time you enroll if you do not pre-register.",
+      ]
+    },
+    {
+      "tag": "regular student",
+      "patterns": [
+        "What is a regular student?",
+        "Regular",
+        "Regular Student",
+      ],
+      "responses": [
+        "A regular student is one who is enrolled in the total number of units prescribed in the curriculum.",
+      ]
+    },
+    {
+      "tag": "shift",
+      "patterns": [
+        "When can I shift to another course?",
+        "Shifting",
+        "Shift",
+      ],
+      "responses": [
+        "Freshmen are allowed to shift by the end of the First Semester. Upperclassmen may shift at the end of the current semester when grades become available.",
+      ]
+    },
+    {
+      "tag": "curriculum and grades",
+      "patterns": [
+        "If I have questions about my curriculum or my grades, where do I go?",
+        "Curriculum and grades",
+        "Curriculum",
+        "Grades",
+        "Grades and curriculum"
+      ],
+      "responses": [
+        "You may address your questions to your assigned evaluator.",
+      ]
+    },
+    {
+      "tag": "gone",
+      "patterns": [
+        "One of my pre-registered subjects is gone, what happened to it?",
+        "Pre-registered subjects disappeared"
+      ],
+      "responses": [
+        "You might have failed the pre-requisite subject you have taken the previous semester or the faculty has not submitted your grade yet. Check your flowchart.",
+      ]
+    },
+    {
+      "tag": "access registration",
+      "patterns": [
+        "I have already logged in on OnE, but I am unable to access the online registration, what do I do?",
+        "Unable to access registration",
+        "Unable to access online registration"
+      ],
+      "responses": [
+        "These holds prevent you from enrolling in courses or viewing your grades but not from logging in. There are several reasons for your holds -- each with a different way or office to address or clear it. You must resolve your hold with the office that initiated it. For example, if you have a balance from your tuition and other fees, you will need to pay it and clear your account from the Student Accounts Section to have this hold removed."
+      ]
+    },
+    {
+      "tag": "program code and section code",
+      "patterns": [
+        "My COR says I'm an 'APM11' student, what does it mean?",
+        "Program code and section code",
+        "Program code",
+        "Section code"
+      ],
+      "responses": [
+        "APM11 is your program code and section code. APM is the program code (progcode) for BS Applied Mathematics and 11 is the section code (sectcode) for freshmen, section 1. All programs in the University have assigned progcodes."
+      ]
+    },
+    {
+      "tag": "class standing",
+      "patterns": [
+        "I'm currently listed as a sophomore, but I should be listed as a junior, how do I change my class standing?",
+        "Wrong class",
+        "Wrong class standing",
+        "Wrong section",
+        "Wrong block",
+        "Wrong year"
+      ],
+      "responses": [
+        "You have to go to the Records Evaluator in charge of your program. For example, if you are a junior BS Biology student, go to the Office of the Registrar. Your records will be reviewed before changes are made."
+      ]
+    },
+    {
+      "tag": "transfer",
+      "patterns": [
+        "I currently belong to HUB21 but I would like to transfer to HUB22, how do I go about it?",
+        "I want to switch sections",
+        "I want to switch blocks",
+        "I want to change classes"
+      ],
+      "responses": [
+        "Submit a letter of request to change the section to the department where your program belongs. For example, if you are a BS Biology student, go to the Biological Sciences Department."
+      ]
+    },
+    {
+      "tag": "officially enrolled",
+      "patterns": [
+        "How can I confirm that I am officially enrolled in courses?",
+        "Am I officially enrolled?",
+        "Enrollment verification",
+        "COR"
+      ],
+      "responses": [
+        "You will be able to print your COR and your name will appear on your professor's class list."
+      ]
+    },
+    {
+      "tag": "transaction 2",
+      "patterns": [
+        "My online registration shows Transaction 2, what is it?",
+        "Transaction 2",
+        "What is Transaction 2?"
+      ],
+      "responses": [
+        "Transaction 2 is an updated version of your COR. This means you changed or added one or more subjects from your first transaction. Every change of registration means additional transactions."
+      ]
+    },
+    {
+      "tag": "online enrollment limit",
+      "patterns": [
+        "Is there a limit to online enrollment transactions?",
+        "How many online enrollment transactions can I have?",
+        "Online enrollment limit",
+        "Transaction limit"
+      ],
+      "responses": [
+        "Yes, the maximum is 3. However, on a case to case basis, a fourth transaction may be allowed. You need to pay a specific amount before you could proceed to Transaction 4."
+      ]
+    },
+    {
+      "tag": "cannot add subject",
+      "patterns": [
+        "Why is it that I can view the subjects in OnE, but, I can not add it to my registration?",
+        "Can't add a subject to registration",
+      ],
+      "responses": [
+        "Most of the time, the reason is that a particular subject is exclusive for other programs."
+      ]
+    },
+    {
+      "tag": "program code and section",
+      "patterns": [
+        "For example, I want to enroll in ENGL102, but, I can't search it. Why is it so?", //WEIRD
+        "Can't find a specific program and section",
+        "Can't find a program and section",
+        "Can't find a program",
+        "Can't find a section",
+        "Can't find a class"
+      ],
+      "responses": [
+        "There are two possible reasons: it's either ENGL102 is not offered for enrollment or you did not pass ENGL101, which is a pre-requisite of ENGL102. Some subjects have pre-requisites. Students must pass these subjects before enrolling."
+      ]
+    },
+    {
+      "tag": "name update",
+      "patterns": [
+        "How can I update my name?",
+        "Name update",
+        "How I change my name?",
+        "My name is wrong.",
+        "Wrong name"
+      ],
+      "responses": [
+        "For name correction or change, submit a copy of the PSA-certified birth certificate and supporting document to the Records Section (Counter 2). Proceed to the ID Section (Counter 7)."
+      ]
+    },
+    {
+      "tag": "graduation application",
+      "patterns": [
+        "Do I have to apply for graduation?",
+        "Graduation application",
+        "Apply for graduation"
+      ],
+      "responses": [
+        "Yes. You can get the application for graduation form from the Records Evaluator assigned to your program."
+      ]
+    },
+    {
+      "tag": "graduation fee",
+      "patterns": [
+        "Is there a graduation fee?",
+        "Graduation fee",
+        "How much is the graduation fee?",
+        "How much do I have to pay for graduation"
+      ],
+      "responses": [
+        "Yes. Verify the amount at the Student Accounts Section."
+      ]
+    },
+    {
+      "tag": "pay w/o attendance",
+      "patterns": [
+        "Do I still have to pay the graduation fee if I will not attend the commencement ceremonies?",
+        "I did not attend the commencement ceremonies. Do I still have to pay the graduation fee?",
+        "Did not attend commence ceremonies. Do I still have to pay?"
+      ],
+      "responses": [
+        "Yes. You still have to pay for the graduation fee."
+      ]
+    },
+    {
+      "tag": "graduation academic honors",
+      "patterns": [
+        "When will I know if I am graduating with academic honors?",
+        "Am I graduating as an honor student?",
+        "Graduation academic honors",
+        "Student honor",
+        "Honor",
+      ],
+      "responses": [
+        "You will be notified a week before the graduation date by the Office of the Registrar."
+      ]
+    },
+    {
+      "tag": "entry cards/invitations graduation rites", //WEIRD
+      "patterns": [
+        "Do I need entry cards and/or invitations for the Graduation Rites",
+        "Entry cards for Graduation Rites",
+        "Invitations for Graduation Rites"
+      ],
+      "responses": [
+        "Yes. These will be given to you right after the general rehearsal."
+      ]
+    },
+    {
+      "tag": "graduate first semester or summer", //WEIRD
+      "patterns": [
+        "If I am expecting to graduate in the first semester or summer term, when is the approximate time of my commencement ceremonies?",
+        "Graduating in first semester",
+        "Graduating in summer term"
+      ],
+      "responses": [
+        "You will graduate with first Semester/summer Term commencement ceremonies, if there is a schedule."
+      ]
+    },
+    {
+      "tag": "commence ceremony schedule", //WEIRD
+      "patterns": [
+        "May I delay my participation and join the second semester commencement ceremonies?",
+        "Delay participation and join second semester commencement ceremony"
+      ],
+      "responses": [
+        "No. You may only participate in your scheduled term of commencement ceremonies."
+      ]
+    },
+    {
+      "tag": "TOR", 
+      "patterns": [
+        "Who can request for a transcript of records (TOR)?",
+        "Can I request for my transcript of records?",
+        "Can I request for my TOR?",
+        "Get TOR",
+        "TOR",
+        "Can I get my TOR?"
+      ],
+      "responses": [
+        "Any current or former student at De La Salle University-Dasmariñas can request for a TOR through the Office of the Registrar Counter 1."
+      ]
+    },
+    {
+      "tag": "electronic TOR",
+      "patterns": [
+        "Can I get an electronic version of my TOR?",
+        "Digital TOR",
+        "Is there a digital TOR?"
+      ],
+      "responses": [
+        "No. Electronic TORs are not available."
+      ]
+    },
+    {
+      "tag": "unofficial TOR", //ADJUST
+      "patterns": [
+        "Can I get an unofficial version of my TOR?",
+        "Unofficial TOR",
+        "View TOR"
+      ],
+      "responses": [
+        "No. But you can view all of your grades online using the Student Portal."
+      ]
+    },
+    {
+      "tag": "requests TOR",
+      "patterns": [
+        "How many TORs can I request?",
+        "Is there a limit to TOR requests?",
+        "TOR limit"
+      ],
+      "responses": [
+        "There is no limit."
+      ]
+    },
+    {
+      "tag": "schedule TOR", //WEIRD
+      "patterns": [
+        "How long will you hold my TOR until I or my authorized representative claims it?",
+        "Schedule to get TOR"
+      ],
+      "responses": [
+        "Six months from the scheduled release date."
+      ]
+    },
+    {
+      "tag": "hold TOR",
+      "patterns": [
+        "Can I request for TOR if there is a financial hold on my account?",
+        "Can I get my TOR while my account is on hold?"
+      ],
+      "responses": [
+        "No. You must settle your financial obligation to the University before we can release your TOR."
+      ]
+    },
+    {
+      "tag": "diploma",
+      "patterns": [
+        "How do I get my diploma?",
+        "Diploma",
+        "I want to get my diploma"
+      ],
+      "responses": [
+        "You must be cleared of all accountabilities from the University before you can get your diploma. Get a clearance form at the Office of the Registrar Counter 2."
+      ]
+    },
+    {
+      "tag": "lost diploma",
+      "patterns": [
+        "I lost my original diploma, can I request for another copy?",
+        "Lost diploma. Can I get another copy?",
+        "Can I get another copy of my diploma?"
+      ],
+      "responses": [
+        "Yes. Submit an affidavit of loss to the Office of the Registrar Counter 1."
+      ]
+    },
+    {
+      "tag": "",
+      "patterns": [
+        "How can my parents access my records online?",
+      ],
+      "responses": [
+        "Through the Parent Portal. To access, your parent must have an active account, which can be acquired from the Information Technology and Communications Center (ICTC)."
+      ]
+    },
+    {
+      "tag": "data Registrar", //ADJUST
+      "patterns": [
+        "How can I get data from the Office of the Registrar for my school project (or thesis)?",
+        "We want to ask the Registrar for data for our thesis"
+      ],
+      "responses": [
+        "Submit a Request for Data form at the Office of the Registrar Counter 1. It has to be signed by your class adviser, department head, and college dean."
+      ]
+    },
+    //TEACHERS
+    {
+      "tag": "change grade",
+      "patterns": [
+        "What will I do if I already submitted the grades online, but, need to change the grade of a student?",
+      ],
+      "responses": [
+        "You must submit a Change of Grade form at the Office of the Registrar."
+      ]
+    },
+    {
+      "tag": "failed deadline",
+      "patterns": [
+        "I failed to encode the grades of my students online by the deadline for submission of grades, what I will do?",
+      ],
+      "responses": [
+        "Use the Special Report of Grades form to physically submit the grades of your students at the Office of the Registrar."
+      ]
+    },
+    {
+      "tag": "students not in class",
+      "patterns": [
+        "One or more students attend my class, but their names are not in my class list, what will I do?",
+      ],
+      "responses": [
+        "You must not allow them to continue attending your class."
+      ]
     }
+    
   ]
 }
