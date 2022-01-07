@@ -32,7 +32,12 @@
     {
       "tag": "PreReg",
       "patterns": [
-        "Why is there a need to pre-register"
+        "Why is there a need to pre-register",
+        "Why do I need to pre-register",
+        "Why is there a need to pre register",
+        "Why do I need to pre register",
+        "Do I need to pre-register?",
+        "Do I need to pre register?"
       ],
       "responses": [
         "Pre-registration gives the students an easier and faster enrollment process. Classes are reserved for them."
@@ -64,20 +69,27 @@
     {
       "tag": "shift",
       "patterns": [
-        "When can I shift to another course"
+        "When can I shift to another course",
+        "Is shifting possible?",
+        "Will I be able to shift?",
+        "What do I need to shift?",
+        "Shifting Requirements?"
       ],
       "responses": [
-        "Freshmen are allowed to shift by the end of the First Semester. Upperclassmen may shift at the end of the current semester when grades become available."
+        "Freshmen are allowed to shift by the end of the First Semester. Upperclassmen may shift at the end of the current semester when grades become available. You may reach out to the registrar's office for detailed list of requirements."
       ]
     },
     {
       "tag": "where grades?",
       "patterns": [
-        "If I have a question about my curriculum or grades, where do I go?"
+        "If I have a question about my curriculum or grades, where do I go?",
+        "Where are my grades?",
+        "Where will I ask about my grades?",
+        "Where can I see my grades?"
 
       ],
       "responses": [
-        "You may address your questions to your assigned evaluator."
+        "You may address your questions to the office of the registrar or check your grades on your portal."
       ]
     },
     
