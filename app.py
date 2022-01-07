@@ -16,4 +16,4 @@ def predict():
     return jsonify(message)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run('192.168.0.104')
