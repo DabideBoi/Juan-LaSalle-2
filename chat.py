@@ -45,7 +45,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return "Sorry, my data is currently insufficient to properly handle your inquiry. You may contact the Registrar's Office through phone or email.\n\nEmail: registrar@dlsud.edu.ph\nPhone: 555-5555"
 
 
 if __name__ == "__main__":

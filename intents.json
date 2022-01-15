@@ -8,22 +8,39 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+	"Juan",
+	"Hello Juan",
+	"Hi Juan"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+    	"Hello my name is Juan, what can I do for you?",
+	"Hello, how can I assist you?",
+	"Hi, I am Juan La Salle. The only Juan you need. How can I be of assistance?",
+	"Hello, is there anything I can help you with?",
+	"Good day. I am your Digital Assistant, Juan. How can I help."
       ]
     },
+    {
+    "tag": "Your Name",
+          "patterns": [
+	 "What is your name?",
+	 "Who are you?",
+	 "What are you?",
+	 "Are you a robot?",
+	 "What do your do?"
+	 ],
+	  "responses": [
+	 "Hi I am Juan, short for Just a University Assistant powered by a Neural Network. I am a brain child of David Yabis, Isobelle Casado, and James Rafols from BCS32. I am a chatbot made to answer your questions :))))."
+	 ]
+    }, 
     {
       "tag": "General Kenobi",
       "patterns": [
         "Hello There"
       ],
       "responses": [
-        "General Kenobi"
+        "General Kenobi ;)"
       ]
     },
 
@@ -92,9 +109,6 @@
       ]
     },
 
-
-
-
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
@@ -109,68 +123,7 @@
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    },
-
+   
     {
       "tag": "pre-registration",
       "patterns": [
@@ -213,19 +166,6 @@
       ],
       "responses": [
         "Freshmen are allowed to shift by the end of the First Semester. Upperclassmen may shift at the end of the current semester when grades become available."
-      ]
-    },
-    {
-      "tag": "curriculum and grades",
-      "patterns": [
-        "If I have questions about my curriculum or my grades, where do I go?",
-        "Curriculum and grades",
-        "Curriculum",
-        "Grades",
-        "Grades and curriculum"
-      ],
-      "responses": [
-        "You may address your questions to your assigned evaluator."
       ]
     },
     {
@@ -272,7 +212,7 @@
         "Wrong year"
       ],
       "responses": [
-        "You have to go to the Records Evaluator in charge of your program. For example, if you are a junior BS Biology student, go to the Office of the Registrar. Your records will be reviewed before changes are made."
+        "You have to go to the Records EvaluaTranscript of Records in charge of your program. For example, if you are a junior BS Biology student, go to the Office of the Registrar. Your records will be reviewed before changes are made."
       ]
     },
     {
@@ -343,7 +283,7 @@
         "Can't find a class"
       ],
       "responses": [
-        "There are two possible reasons: it's either ENGL102 is not offered for enrollment or you did not pass ENGL101, which is a pre-requisite of ENGL102. Some subjects have pre-requisites. Students must pass these subjects before enrolling."
+        "There are two possible reasons: it's either that specific subject is not offered for enrollment or you did not pass its pre-requisite subject. Some subjects have pre-requisites. Students must pass these subjects before enrolling."
       ]
     },
     {
@@ -367,7 +307,7 @@
         "Apply for graduation"
       ],
       "responses": [
-        "Yes. You can get the application for graduation form from the Records Evaluator assigned to your program."
+        "Yes. You can get the application for graduation form from the Records EvaluaTranscript of Records assigned to your program."
       ]
     },
     {
@@ -439,70 +379,79 @@
       ]
     },
     {
-      "tag": "TOR", 
+      "tag": "Transcript of Records", 
       "patterns": [
-        "Who can request for a transcript of records (TOR)?",
+        "Who can request for a transcript of records (Transcript of Records)?",
         "Can I request for my transcript of records?",
-        "Can I request for my TOR?",
-        "Get TOR",
-        "TOR",
-        "Can I get my TOR?"
+        "Can I request for my Transcript of Records?",
+        "Can I view my Transcript of Records?",
+        "Can I ask my Transcript of Records?",
+        "Can I see my Transcript of Records?",
+        "Get Transcript of Records",
+        "Transcript of Records",
+        "Can I get my Transcript of Records?"
       ],
       "responses": [
-        "Any current or former student at De La Salle University-Dasmariñas can request for a TOR through the Office of the Registrar Counter 1."
+        "Any current or former student at De La Salle University-Dasmariñas can request for  TOR through the Office of the Registrar Counter 1."
       ]
     },
     {
-      "tag": "electronic TOR",
+      "tag": "electronic Transcript of Records",
       "patterns": [
-        "Can I get an electronic version of my TOR?",
-        "Digital TOR",
-        "Is there a digital TOR?"
+        "Can I get an electronic version of my Transcript of Records?",
+        "Can I view an electronic version of my Transcript of Records?",
+        "Can I see an electronic version of my Transcript of Records?",
+        "Digital Transcript of Records",
+        "Is there a digital Transcript of Records?"
       ],
       "responses": [
-        "No. Electronic TORs are not available."
+        "No. Electronic Transcript of Recordss are not available."
       ]
     },
     {
-      "tag": "unofficial TOR", 
+      "tag": "unofficial Transcript of Records", 
       "patterns": [
-        "Can I get an unofficial version of my TOR?",
-        "Unofficial TOR",
-        "View TOR"
+        "Can I get an unofficial version of my Transcript of Records?",
+        "Can I view an unofficial version of my Transcript of Records?",
+        "Can I see an unofficial version of my Transcript of Records?",
+        "Unofficial Transcript of Records",
+        "View Transcript of Records"
       ],
       "responses": [
         "No. But you can view all of your grades online using the Student Portal."
       ]
     },
     {
-      "tag": "requests TOR",
+      "tag": "requests Transcript of Records",
       "patterns": [
-        "How many TORs can I request?",
-        "Is there a limit to TOR requests?",
-        "TOR limit"
+        "How many Transcript of Records can I request?",
+        "Is there a limit to Transcript of Records requests?",
+        "Transcript of Records limit"
       ],
       "responses": [
         "There is no limit."
       ]
     },
     {
-      "tag": "schedule TOR",
+      "tag": "schedule Transcript of Records",
       "patterns": [
-        "How long will you hold my TOR until I or my authorized representative claims it?",
-        "Schedule to get TOR"
+        "How long will you hold my Transcript of Records until I or my authorized representative claims it?",
+        "Schedule to get Transcript of Records"
       ],
       "responses": [
         "Six months from the scheduled release date."
       ]
     },
     {
-      "tag": "hold TOR",
+      "tag": "hold Transcript of Records",
       "patterns": [
-        "Can I request for TOR if there is a financial hold on my account?",
-        "Can I get my TOR while my account is on hold?"
+        "Can I request for Transcript of Records if there is a financial hold on my account?",
+        "Can I see my Transript of Records while my account is on hold?",
+        "Can I view my Transript of Records while my account is on hold?",
+        "Can I get my Transript of Records while my account is on hold?"
       ],
       "responses": [
-        "No. You must settle your financial obligation to the University before we can release your TOR."
+        "No. You must settle your financial obligation to the University before we can release your Transcript of Records."
       ]
     },
     {
@@ -600,7 +549,31 @@
       "responses": [
         "You must not allow them to continue attending your class."
       ]
-    }
+    },
+    {
+      "tag": "Where to pay",
+      "patterns": [
+	      "Where do I make payments",
+	      "Where to pay",
+	      "Where pay",
+	      "Payment where",
+	      "Where do I go to pay my balance"
+      ],
+      "responses" :[
+      	"All transactions are to be made in the accounting office"	
+      ]
+    },
+    {
+	 "tag": "When to pay?",
+	 "patterns": [
+	     "When to pay?",
+	     "Is the accounting office open?",
+	     "When is the accounting office open?"
+	 ],
+	 "responses": [
+	      "The Accounting Office's operating hours are from 8am to 5pm, from Mondays to Saturdays."
+	         ]
+	}
     
   ]
 }

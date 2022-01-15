@@ -13,7 +13,6 @@ from model import NeuralNet
 from nltk.stem import WordNetLemmatizer
 lemma = WordNetLemmatizer()
 
-
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 
@@ -58,8 +57,10 @@ for (pattern_sentence, tag) in xy:
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
+
+
 # Hyper-parameters 
-num_epochs = 5000
+num_epochs = 15000
 batch_size = 8
 learning_rate = 0.001
 input_size = len(X_train[0])
@@ -81,6 +82,9 @@ class ChatDataset(Dataset):
     # we can call len(dataset) to return the size
     def __len__(self):
         return self.n_samples
+    
+
+    
 
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset,
