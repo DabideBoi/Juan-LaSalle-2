@@ -9,16 +9,16 @@
         "Is anyone there?",
         "Hello",
         "Good day",
-	"Juan",
-	"Hello Juan",
-	"Hi Juan"
+	      "Juan",
+	      "Hello Juan",
+	      "Hi Juan"
       ],
       "responses": [
     	"Hello my name is Juan, what can I do for you?",
-	"Hello, how can I assist you?",
-	"Hi, I am Juan La Salle. The only Juan you need. How can I be of assistance?",
-	"Hello, is there anything I can help you with?",
-	"Good day. I am your Digital Assistant, Juan. How can I help."
+    	"Hello, how can I assist you?",
+    	"Hi, I am Juan La Salle. The only Juan you need. How can I be of assistance?",
+    	"Hello, is there anything I can help you with?",
+	    "Good day. I am your Digital Assistant, Juan. How can I help."
       ]
     },
     {
@@ -509,17 +509,17 @@
       ]
     },
     {
-      "tag": "",
+      "tag": "Parent's",
       "patterns": [
         "How can my parents access my records online?",
-	"is there any way for my parents to get my records online?",
-	"can my folks access my records online?",
-	"how can my parents have online access to my records?",
-	"parents access my online records",
-	"rents access my online records",
-	"get records online",
-	"parents get my records",
-	"ways for my parents to get my reocrds online"
+        "is there any way for my parents to get my records online?",
+        "can my folks access my records online?",
+        "how can my parents have online access to my records?",
+        "parents access my online records",
+        "rents access my online records",
+        "get records online",
+        "parents get my records",
+        "ways for my parents to get my reocrds online"
 
       ],
       "responses": [
@@ -541,13 +541,15 @@
       "tag": "change grade",
       "patterns": [
         "What will I do if I already submitted the grades online, but, need to change the grade of a student?",
-	"What to do if I want to change grades",
-	"already passsed the grade online but need to change grade",
-	"what to do if I submitted my grade but need to change them?",
-	"how to change my grades if i already submitted my grades online?",
-	"I already gave my grades online but I need to change them how do i do that?",
-	"passed grades online but need to change,how",
-	"what to do if I passed my grades online but need to change them?"
+        "What to do if I want to change grades",
+        "I want to change grades",
+        "change grades",
+        "already passsed the grade online but need to change grade",
+        "what to do if I submitted my grade but need to change them?",
+        "how to change my grades if i already submitted my grades online?",
+        "I already gave my grades online but I need to change them how do i do that?",
+        "passed grades online but need to change,how",
+        "what to do if I passed my grades online but need to change them?"
       ],
       
       "responses": [

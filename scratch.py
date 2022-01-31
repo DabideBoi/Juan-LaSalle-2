@@ -1,39 +1,19 @@
-import numpy as np
-import random
-import json
-
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-
-from nltk_utils import bag_of_words, tokenize, stem
-from model import NeuralNet
-
-from nltk.stem import WordNetLemmatizer
-lemma = WordNetLemmatizer()
-
-with open('intents.json', 'r') as f:
-    intents = json.load(f)
-
-all_words = []
-tags = []
-xy = []
-
-for intent in intents['intents']:
-    tag = intent['tag']
-    # add to tag list
-    tags.append(tag)
-    for pattern in intent['patterns']:
-        # tokenize each word in the sentence
-        w = tokenize(pattern)
-        # add to our words list
-        all_words.extend(w)
-        # add to xy pair
-        xy.append((w, tag))
-
-ignore_words = ['?', '.', '!', "'", "(", ")"]
-all_words1 = [lemma.lemmatize(w) for w in all_words if w not in ignore_words]
-all_words2 = [stem(w) for w in all_words if w not in ignore_words]
-
-print(all_words1)
-print(all_words2)
+"Can I see my Grades"
+tensor([[ -797.9651,  -544.7191,  -848.7536,  -605.6518,  -567.9442,  -570.4066,
+          -587.5245,  -531.1772,  -561.3732,  -530.7311,  -636.9857,  -590.8621,
+          -551.6605,  -595.6343,  -629.1948,  -568.5937,  -536.3466,  -575.7134,
+          -600.5433,  -583.4887,  -637.4486,  -576.6313,  -554.0366,  -669.0499,
+          -600.6465,  -584.5609,  -566.6541,  -617.6744,  -582.8394,  -561.9565,
+         -1431.2817,  -623.9030,  -638.3339,  -645.6963,  -641.8004, -1823.2136,
+         -2265.8296,  -590.3607,  -578.9196,  -532.1167,  -640.3877,  -581.1460,
+          -594.4963,  -658.3063,  -524.2792]], grad_fn=<AddmmBackward0>)
+          
+"Can I see my Grades"         
+tensor([[ -797.9651,  -544.7191,  -848.7536,  -605.6518,  -567.9442,  -570.4066,
+          -587.5245,  -531.1772,  -561.3732,  -530.7311,  -636.9857,  -590.8621,
+          -551.6605,  -595.6343,  -629.1948,  -568.5937,  -536.3466,  -575.7134,
+          -600.5433,  -583.4887,  -637.4486,  -576.6313,  -554.0366,  -669.0499,
+          -600.6465,  -584.5609,  -566.6541,  -617.6744,  -582.8394,  -561.9565,
+         -1431.2817,  -623.9030,  -638.3339,  -645.6963,  -641.8004, -1823.2136,
+         -2265.8296,  -590.3607,  -578.9196,  -532.1167,  -640.3877,  -581.1460,
+          -594.4963,  -658.3063,  -524.2792]], grad_fn=<AddmmBackward0>)

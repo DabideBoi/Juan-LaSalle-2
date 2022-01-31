@@ -16,6 +16,7 @@ lemma = WordNetLemmatizer()
 with open('intents.json', 'r') as f:
     intents = json.load(f)
 
+loss_item = []
 all_words = []
 tags = []
 xy = []
@@ -32,7 +33,7 @@ for intent in intents['intents']:
         # add to xy pair
         xy.append((w, tag))
 
-# stem and lower each word
+# lemmatize and lower each word
 ignore_words = ['?', '.', '!', "'", "(", ")", ',']
 all_words = [lem(w) for w in all_words if w not in ignore_words]
 # remove duplicates and sort
@@ -60,7 +61,7 @@ y_train = np.array(y_train)
 
 
 # Hyper-parameters 
-num_epochs = 15000
+num_epochs = 5000
 batch_size = 8
 learning_rate = 0.001
 input_size = len(X_train[0])
@@ -117,11 +118,23 @@ for epoch in range(num_epochs):
         loss.backward()
         optimizer.step()
         
+        
     if (epoch+1) % 100 == 0:
+        loss_item.append(loss.item())
         print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 
-print(f'final loss: {loss.item():.4f}')
+
+
+def average(a):  
+    if len(a) == 1:  
+        return a[0]  
+    else:  
+        n = len(a)
+        return (a[0] + (n - 1) * average(a[1:])) / n  
+        
+final_loss = average(loss_item)
+print(f'final loss: {final_loss}')
 
 data = {
 "model_state": model.state_dict(),
