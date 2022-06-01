@@ -1,12 +1,14 @@
 import random
 import json
-
+import nltk
 import torch
 
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cpu')
+
+nltk.download('all')
 
 with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
