@@ -6,9 +6,7 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
-device = torch.device('cpu')
-
-nltk.download('all')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
@@ -56,6 +54,7 @@ def get_response(msg):
         if prob.item() > 0.85:
             for intent in intents['intents']:
                 if tag == intent["tag"]:
+                    print("<TAG>:\t", intent["tag"])
                     resp = random.choice(intent['responses'])
                     cache[msg] = resp
                     print(cache)
